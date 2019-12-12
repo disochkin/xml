@@ -54,7 +54,7 @@ def get_data_from_xml(file):
 print(get_list_top(get_data_from_xml("import.xml"), 6, 10))
 print(get_list_top(get_data_from_json("import.json"), 6, 10))
 
-#добавил второй вариант. сомневаюсь на счет читаемости кода.
+#добавил второй вариант. сомневаюсь на счет читаемости кода. нашел на хабре - решил попробовать.
 print(get_list_top2(get_data_from_xml("import.xml"), 6, 10))
 print(get_list_top2(get_data_from_json("import.json"), 6, 10))
 
