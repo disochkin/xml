@@ -19,7 +19,7 @@ def get_numbered_elements(source_list,quantity=10):
     i = 0
     for item, _ in zip(source_list, range(quantity)):
         i += 1
-        result = result + str(i) + "." + item[0] + " " + str(item[1]) + "\n"
+        result = result + str(i) + "." + item[0] + " " + "\n"
     return result
 
 
